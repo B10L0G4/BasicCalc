@@ -1,6 +1,6 @@
-calc = True
 
-def calculadora(n1,operator,n2):
+
+def operadores(n1,operator,n2):
     match operator:
         case '+':
             soma = n1 + n2
@@ -19,24 +19,26 @@ def calculadora(n1,operator,n2):
             return porc
 
 
-def teste(calc):
+def calculadora():
+    calc = True
+    num1 = float(input('Insira os numeros a serem calculados: '))
     while calc:
-            num1 = float(input('Insira os numeros a serem calculados: '))
-            operator = input('Insira o operador para o cálculo: ')
-            num2 = float(input('Insira os numeros a serem calculados: '))
-            result= calculadora(num1,operator,num2)
-            print(result) 
+        operator = input('Insira o operador para o cálculo: ')
+        num2 = float(input('Insira os numeros a serem calculados: '))
+        result= operadores(num1,operator,num2)
+        print(result) 
+        continua = input('Digite s para continuar\nn para um novo calculo\n exit para fechar a calculadora\n')
+        if continua == 's':
+            num1 = result
+        elif continua == 'n': 
             calc = False
+            calculadora()
+        else:
+            break
             
 
-inicio = input("Deseja fazer uma conta? sim ou nao  ")
-print(inicio)
-if inicio == 'sim':
-    resultado = teste(calc)
-    continua = input('s or n')
-    if continua == 's':
-        calc = True
-        teste(calc)
+calculadora()    
+
         
 
 
