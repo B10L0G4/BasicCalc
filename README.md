@@ -1,20 +1,20 @@
 ### Nome do Projeto: Calculadora Básica
 
-**Descrição:** 
+### **Descrição:** 
 * Proejeto de Estudo : Calculadora básica, com funções de soma, subtração , divisão,  multiplicação e porcentagem. 
 
 **Tecnologias Utilizadas:** 
 - Python
 
 **Instalação**
-Fork ou clone do projeto
+- Fork ou clone do projeto
 
 **Pré-requisitos:**
-python3.8 ou superior instalado e configurado. 
+- python3.8 ou superior instalado e configurado. 
 
 **Passos de Instalação:**
 
-Não há para este projeto
+- Não há para este projeto
 
 **Contribuição**
 
@@ -34,16 +34,16 @@ Se você quiser contribuir para este projeto, siga estas etapas:
 * Vanessa Carraro
 
 **Observação**
- Para alterar versões python no mac :
- Verificando versões e instalações 
-```brew list | grep python``` verifica todas as versões q foram instaladas com o homebrew
-```ls -l /usr/local/bin/python*```lista todos os arquivos do diretorio que comecam com python
-```brew info python@3.(versao)``` Procure pela linha que começa com Cellar seguida pelo caminho para o Python
-devera ser algo parecido com ```**/usr/local/Cellar/python@3.12/3.12.1**```
-No terminal, abra o arquivo de configuração ```**nano ~/.zshrc**```
-Adicione o seu caminho ```**export PATH="/usr/local/Cellar/python@3.12/3.12.1/bin:$PATH"**```
-No terminal, atualize a configuração ```**source ~/.zshrc**```
-verifique a versão ```python3 --version```
+- **Para alterar versões python no mac :**
+- Verificando versões e instalações 
+- ```brew list | grep python``` verifica todas as versões q foram instaladas com o homebrew
+- ```ls -l /usr/local/bin/python*```lista todos os arquivos do diretorio que comecam com python
+- ```brew info python@3.(versao)``` Procure pela linha que começa com Cellar seguida pelo caminho para o Python
+- Devera ser algo parecido com ```**/usr/local/Cellar/python@3.12/3.12.1**```
+- No terminal, abra o arquivo de configuração ```**nano ~/.zshrc**```
+- Adicione o seu caminho ```**export PATH="/usr/local/Cellar/python@3.12/3.12.1/bin:$PATH"**```
+- No terminal, atualize a configuração ```**source ~/.zshrc**```
+- Verifique a versão ```python3 --version```
 
 
 
