@@ -1,13 +1,10 @@
-
-Abaixo readme padrão para os projetos : 
-
 ### Nome do Projeto: Calculadora Básica
 
 **Descrição:** 
 * Proejeto de Estudo : Calculadora básica, com funções de soma, subtração , divisão,  multiplicação e porcentagem. 
 
 **Tecnologias Utilizadas:** 
-Python
+- Python
 
 **Instalação**
 Fork ou clone do projeto
