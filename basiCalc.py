@@ -1,5 +1,3 @@
-
-
 def operadores(n1,operator,n2):
     match operator:
         case '+':
